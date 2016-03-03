@@ -1282,7 +1282,7 @@ static int translucent_db_init(BackendDB *be, ConfigReply *cr) {
 		return 1;
 	}
 	SLAP_DBFLAGS(be) |= SLAP_DBFLAG_NO_SCHEMA_CHECK;
-	SLAP_DBFLAGS(be) |= SLAP_DBFLAG_NOLASTMOD;
+//	SLAP_DBFLAGS(be) |= SLAP_DBFLAG_NOLASTMOD;
 
 	return 0;
 }
